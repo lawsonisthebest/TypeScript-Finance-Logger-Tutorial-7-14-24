@@ -1,0 +1,95 @@
+*{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+    margin: 0;
+    font-family: Roboto; 
+  }
+  .wrapper{
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  h1{
+    margin: 40px auto;
+    color: rgb(36, 36, 36);
+    text-align: center;
+    font-size: 4rem;
+  }
+  ul{
+    padding: 0;
+    list-style-type: none;
+  }
+  li{
+    padding: 6px 10px;
+    border: 1px solid #eee;
+    margin: 10px auto;
+    font-size: 25px;
+  }
+  li h4{
+    color: #ff0aa7;
+    margin: 0;
+    text-transform: capitalize;
+  }
+  li p{
+    color: #333;
+    margin: 8px 0 0;
+  }
+  footer{
+    background: #eee;
+    padding: 150px;
+    margin-top: 60px;
+  }
+  form{
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  label{
+    display: block;
+    font-weight: bold;
+    font-size: 2em;
+    color: rgb(36, 36, 36);;
+    margin: 16px 0 6px;
+  }
+  input, select{
+    padding: 6px;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+  }
+  .field{
+    display: inline-block;
+    margin: 0 10px;
+  }
+  button{
+    color: rgb(36, 36, 36);
+    border: 0;
+    background: #a9a9a9;
+    padding: 6px;
+    margin: 10px;
+    min-width: 100px;
+    font-size: 1em;
+    min-height: 35px;
+    border-radius: 4px;
+  }
+  footer{
+    text-align: center;
+    display: block;
+    background-color: #c6c6c6;
+    margin-top: 40px;
+    font-size: 1em;
+  }
+
+  .inp{
+    font-size: 1.25rem;
+    color: rgb(36, 36, 36);;
+  }
+
+  a{
+    margin-top: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }

@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TypeScript Tutorial</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    <h1>Finance Logger</h1>
+
+    <!-- output list -->
+    <ul class="item-list">
+      
+    </ul>
+  </div>
+
+  <footer>
+    <form class="new-item-form">
+      <div class="field">
+        <label>Type:</label>
+        <select id="type" class="inp">
+          <option class="inp" value="invoice">Invoice</option>
+          <option class="inp" value="payment">Payment</option>
+        </select>
+      </div>
+      <div class="field">
+        <label>To / From:</label>
+        <input class="inp" type="text" id="tofrom">
+      </div>   
+      <div class="field">
+        <label>Details:</label>
+        <input class="inp" type="text" id="details">
+      </div>
+      <div class="field">
+        <label>Amount ($):</label>
+        <input class="inp" type="number" id="amount">
+      </div>
+      <button>Add</button>
+    </form>
+</footer>
+
+<a href="https://github.com/lawsonisthebest">Git Hub!</a>
+
+  <script type="module" src='app.js'></script>
+</body>
+</html>
